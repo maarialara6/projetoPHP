@@ -7,11 +7,15 @@
 
 	echo "Salário liquído: <br>";
 
-	$valor;
+	$salB,
 	$sal;
 	$porc;
 
-	
+	if ($salB >= && <= 2428.80) {
+		echo "Isento";
+	} elseif ($salB) {
+		// code...
+	}
 
 
  ?>
