@@ -1,7 +1,7 @@
 <?php 
-	$num1=5;
-	$num2=3;
-	$op=2;
+	$num1=3;
+	$num2=5;
+	$op=1;
 
 	function soma($num1, $num2){
 		return ($num1 + $num2);
@@ -21,23 +21,24 @@
 
 	switch($op){
 		case 1:
+			$nomeOP = "soma";
 			$resp = soma($num1, $num2);
-			echo "A soma de $num1 e $num2 é $resp";
 		break;
 
 		case 2:
+			$nomeOP = "subtração";
 			$resp = subtracao($num1, $num2);
-			echo "A subtração de $num1 e $num2 é $resp";
 			break;
 
 		case 3:
+			$nomeOP = "multiplicação";
 			$resp = multiplicacao($num1, $num2);
-			echo "A multiplicação de $num1 e $num2 é $resp";
 			break;
 
 		case 4:
+			$nomeOP = "divisão";
 			$resp = divisao($num1, $num2);
-			echo "A divisão de $num1 e $num2 é $resp";
 			break;
 	}
+	echo "A $nomeOP de $num1 e $num2 é $resp";
  ?>

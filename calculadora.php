@@ -1,7 +1,7 @@
 <?php 
 	$num1 =10;
 	$num2 =20;
-	$op=5;
+	$op=2;
 
 	switch ($op) {
 		case 1: $resp = $num1 + $num2;

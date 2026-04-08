@@ -5,7 +5,7 @@
 
 	$media;
 
-	echo "=== MÉDIA DE ALUNOS === <br><br><br>";
+	echo "====== MÉDIA DE ALUNOS ====== <br><br><br>";
 
 	//aluno 1
 	$al1_nota1= 3;
