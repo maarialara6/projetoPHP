@@ -9,13 +9,11 @@
 
 	<form action="cadastro.php" method="post">
 		Nome: 
-		<input type="text" name="nome">
-		<br>
-		<br>
+		<input type="text" name="nome" autofocus>
+		<br><br>
 		Email:
 		<input type="email" name="email">
-		<br>
-		<br>
+		<br><br>
 		<input type="submit" name="enviar">
 	</form>
 
